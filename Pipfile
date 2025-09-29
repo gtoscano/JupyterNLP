@@ -7,8 +7,27 @@ name = "pypi"
 matplotlib = "*"
 scikit-learn = "*"
 jupyter = "*"
+overrides = "*"
+jupyterlab = "*"
+pip = "*"
+torch = ">=2.2"
+evaluate = ">=0.4"
+accelerate = ">=0.30"
+transformers = {extras = ["onnxruntime", "optuna", "sentencepiece", "sklearn", "tf", "torch", "vision"], version = "*"}
+datasets = {extras = ["audio"], version = "*"}
+ipywidgets = "*"
+umap-learn = "*"
+bertviz = "*"
+seqeval = "*"
+nltk = "*"
+sacrebleu = "*"
+rouge-score = "*"
+nlpaug = "*"
+scikit-multilearn = "*"
+psutil = "*"
+huggingface-hub = "*"
 
 [dev-packages]
 
 [requires]
-python_version = ">=3.11.2"
+python_version = "3.11.2"
