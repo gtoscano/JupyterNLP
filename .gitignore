@@ -1,0 +1,4 @@
+*.env
+distilbert-base-uncased-finetuned-emotion/*
+.ipynb_checkpoints/*
+
