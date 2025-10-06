@@ -26,6 +26,7 @@ nlpaug = "*"
 scikit-multilearn = "*"
 psutil = "*"
 huggingface-hub = "*"
+peft = "*"
 
 [dev-packages]
 
